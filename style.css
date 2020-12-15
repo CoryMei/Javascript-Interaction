@@ -1,0 +1,51 @@
+body, html, {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: black;
+  color: gold;
+}
+
+.title > h1 {
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-family:fantasy;
+  font-weight:200;
+}
+
+.intro > p {
+  display: flex;
+  justify-content: center;
+  padding: 20px 80px;
+  text-align: center;
+  font-size: 25px;
+  color: silver;
+  margin-bottom: 50px;
+}
+
+.halfNumContainer, .fortuneContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:fantasy;
+  font-size: 27px;
+  flex-direction: row;
+}
+
+#fortuneOutput {
+  transition: color 1s;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-family:fantasy;
+  margin: 50px;
+}
